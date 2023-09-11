@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+  padding: 2px;
+  margin: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(97,138,254,0.9);
+  }
+
+.box {
+  width: 500px;
+  background: #fafafa;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.5);
+}
+
+h1 {
+  color: rgb(0, 0, 0, 0.7);
+  font-weight: bold;
+  font-size: 31px;
+  padding: 40px 0;
+}
+
+img{
+  margin-bottom: 1%;
+  margin-top: -8%;
+  border: 2px solid rgb(49, 166, 221);
+  border-radius: 120px;
+}
+
+.input {
+  background: #fff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 0px 0;
+  margin-bottom: 20px;
+}
+.input label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+.input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #4f7df9;
+  width: 50%;
+  font-size: 28px;
+  font-family: "Nunito", sans-serif;
+}
+
+.inputH,.inputW{
+  background: #fff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.inputH input,.inputW input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #4f7df9;
+  width: 50%;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Nunito", sans-serif;
+}
+.food-choices{
+  background: #fff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.food-choices input{
+  outline: none;
+  border: none;
+  padding: 205px;
+  border-bottom: 1px solid #4f7df9;
+  width: 100%;
+  font-size: 25px;
+  font-family: "Nunito", sans-serif;
+}
+.result, #result {
+  font-size: 25px;
+  font-weight: 900;
+  color: #4f7df9;
+  background-color: #eaeaea;
+  display: inline-block;
+  padding: 0px 0px;
+  border-radius: 21px;
+  margin-bottom: 25px;
+}
+.result p {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 15px;
+
+}
+.result #result {
+  font-size: 24px;
+  font-weight: 900;
+  color: #4f7df9;
+  background-color: #eaeaea;
+  display: inline-block;
+  padding: 0px 0px;
+  border-radius: 55px;
+  margin-bottom: 25px;
+}
+.border_bot{
+  border-bottom: 2px solid black;
+  border-radius: 20px;
+}
+
+
+.food-choices>ul{
+  text-align: left;
+  list-style-type: space-counter;
+  font-size: 17px;
+}
+
+#comment {
+  color: #4f7df9;
+  font-weight: 800;
+}
+
+.comment {
+  display: none;
+  border: dashed 1px;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 15px
+}
+
+.footer-text {
+  text-decoration: none;
+  color: rgba(40, 40, 40, 0.8);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  transition: all 0.5;
+}
+
+.footer-text:hover {
+  color: rgba(40, 40, 40, 1);
+}
+
+button.calculate {
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  background: rgb(97,138,254,1);
+  font-size: 16px;
+  border-radius: 7px;
+  padding: 12px 0;
+  width: 380px;
+  outline: none; 
+  border: none;
+  transition: all 0.5s;
+}
+button.calculate:hover {
+  background: #0044ff;
+}
